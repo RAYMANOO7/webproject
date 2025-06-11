@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My project </title>
+  <link rel="stylesheet" href="style.css">
+   <script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+
+  
+
+<nav>
+ 
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a href="#Hero" class="nav-item" onclick="setActive(this)">Home</a></li>
+      <li><a href="#Products" class="nav-item" onclick="setActive(this)">Products</a></li>
+      <li><a href="#about" class="nav-item" onclick="setActive(this)">Aboutus</a></li>
+      <li><a href="#features" class="nav-item" onclick="setActive(this)">Features</a></li>
+      <li><a href="#Team" class="nav-item" onclick="setActive(this)">Team</a></li>
+      <li><a href="#Testimonials" class="nav-item" onclick="setActive(this)">Testimonials</a></li>
+      <li><a href="#contact" class="nav-item" onclick="setActive(this)">Contact</a></li>
+
+    </ul>
+  </div>
+</nav>
+<section id="Hero">
+
+ <div class="Hero">
+  <h1 style="color: hsl(120, 99%, 72%);">MindSpark</h1>
+  <br>
+  Empowering students to thrive with mindful productivity tools
+  <br><br>
+  <div class="social-links">
+    <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    <a href="https://linkedin.com" target="_blank"><img src="linked in.png" alt="LinkedIn"></a>
+    <a href="https://github.com" target="_blank"><img src="github.png" alt="GitHub"></a>
+  </div>
+  
+<div class="cta-buttons">
+  <a href="#contact" class="cta-button">Get Started</a>
+  <a href="#contact" class="cta-button2">Learn more</a>
+</div>
+
+</div>
+</section>
+
+
+<section id="Products" class="section">
+
+
+<div id="projects" class="scrollable-section">
+  <h2 class="section-title">Products</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="focuspod">
+        <img src="images (1).jpg" alt="">
+      </div>
+      <p class="tools-used"><strong>Focuspods</strong></p>
+      <p class="project-description">
+        Personalized audio pods with background music and focus-boosting affirmations, customized to user productivity patterns.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <div class="focuspod2">
+        <img src="download (2).png" alt="">
+      </div>
+      <p class="tools-used"><strong>Sparkplan</strong></p>
+      <p class="project-description">
+        A smart daily planner app that integrates to-do lists, goal tracking, and mental wellness check-ins
+      </p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+  <section id="about" class="section">
+ <h2 class="about-heading">About US</h2>
+
+  <div class="about-content">
+    
+    <div class="about-text">
+      <p>
+ The idea for MindSpark was born during a late-night conversation between friends who struggled with staying motivated and focused in their academic and creative pursuits. Realizing how many students faced the same problem, we wanted to create a solution that combines productivity tools with mental well-being. Our team of classmates came together, each bringing a unique skillset—from design to development to psychology. We believe that small daily sparks of motivation can lead to big transformations. That’s why MindSpark exists—to help students unlock their full potential.
+      </p>
+
+      <p>Mission: To empower students with intelligent tools that blend productivity and wellness for sustainable success.</p>
+    </div>
+  </div>
+<h1 class="about-heading">Testimonials</h2>
+
+<section id="Testimonials">
+  <p data-author="– Raymond, College Student">
+    MindSpark made school feel less overwhelming—like someone was actually listening to my brain.
+  </p>
+  <p data-author="– Julia, Study Group Leader">
+    FocusPods helped me write my essays faster than ever before.
+  </p>
+</section>
+
+
+
+<section id="features" class="features-section">
+  <h2 class="about-heading">Features</h2>
+
+  <div class="feature-item">
+    <h3>Mood-Aware Planning (SparkPlanner)</h3>
+    <ul>
+      <li><strong>Tool:</strong> Uses brief emotion check-ins to adjust task difficulty and time blocks</li>
+      <li><strong>Impact:</strong> Reduces burnout and increases user retention by 27%</li>
+    </ul>
+  </div>
+
+  <div class="feature-item">
+    <h3>Adaptive Audio Intelligence (FocusPods)</h3>
+    <ul>
+      <li><strong>Tool:</strong> AI-driven personalization of background sounds based on time of day and user mood</li>
+      <li><strong>Impact:</strong> Boosts task completion rates by 35%</li>
+    </ul>
+  </div>
+</section>
+
+<section id="Team" class="Team">
+  <h2 class="section-title">Meet the Team</h2>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="WIN_20240109_15_45_41_Pro.jpg" alt="Ermon Mersha" class="team-photo" />
+      <h3>Ermon Mersha</h3>
+      <p class="role">Creative strategist</p>
+      <p class="bio">Passionate about combining productivity and wellness to empower students worldwide.</p>
+    </div>
+    <div class="team-member">
+      <img src="" alt="Julia Smith" class="team-photo" />
+      <h3>Julia Smith</h3>
+      <p class="role">Lead Developer</p>
+      <p class="bio">Expert in app development and AI integration, crafting seamless user experiences.</p>
+    </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <form id="contact-form" class="contact-form" action="#" method="POST" novalidate>
+
+    
+    <input type="text" id="name" name="name" placeholder="name" required>
+
+    
+    <input type="email" id="email" name="email" placeholder="E-MAIL" required>
+
+    <input type="tel" id="phone" name="phone" placeholder="phone number">
+
+    
+    <select id="service" name="service">
+      <option value="">Select a service</option>
+      <option value="focuspods">FocusPods</option>
+      <option value="sparkplan">SparkPlan</option>
+      <option value="other">Other</option>
+    </select>
+
+  
+    <select id="timeline" name="timeline">
+      <option value="">Select a timeline</option>
+      <option value="1-3-months">1-3 Months</option>
+      <option value="3-6-months">3-6 Months</option>
+      <option value="6-months+">6+ Months</option>
+    </select>
+
+  
+    <textarea id="product-detail" name="product-detail" rows="4" placeholder="Please provide details about the product"></textarea>
+
+    <button type="submit" class="submit-button full-width-button">Send</button>
+  </form>
+</section>
+
+
+
+
+<script>
+  function setActive(element) {
+    const links = document.querySelectorAll('.nav-item');
+    links.forEach(link => link.classList.remove('active'));
+    element.classList.add('active');
+  }
+</script>
+
+<section id="faqs" class="faq-section">
+  <h2 class="section-title">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false">
+      What is MindSpark?
+      <span class="faq-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="faq-answer" hidden>
+      MindSpark is a productivity platform designed to empower students with mindful tools that boost focus and well-being.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false">
+      How do FocusPods work?
+      <span class="faq-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="faq-answer" hidden>
+      FocusPods provide personalized audio backgrounds and affirmations tailored to your productivity patterns to enhance concentration.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false">
+      Can I integrate SparkPlan with my calendar?
+      <span class="faq-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="faq-answer" hidden>
+      Yes, SparkPlan supports integration with popular calendar apps to help you manage your tasks and goals seamlessly.
+    </div>
+  </div>
+</section>
+
+<div class="audience-toggle">
+  <label class="switch">
+    <input type="checkbox" id="audienceSwitch">
+    <span class="slider round"></span>
+  </label>
+  <span class="toggle-label" id="studentLabel">For Students</span>
+  <span class="toggle-label" id="mentorLabel">For Mentors</span>
+</div>
+
+<div class="audience-content">
+  <div class="student-content" id="studentContent">
+    <h2>Content for Students</h2>
+    <p>This content is specifically designed for students. Learn more about our student programs!</p>
+  </div>
+
+  <div class="mentor-content hidden" id="mentorContent">
+    <h2>Content for Mentors</h2>
+    <p>This content is tailored for mentors. Discover how you can guide and support students.</p>
+  </div>
+</div>
+
+<section class="brand-values-section">
+  <div class="brand-values-container">
+    <div class="brand-value">Resilient.</div>
+    <div class="brand-value">Local.</div>
+    <div class="brand-value">Timely.</div>
+  </div>
+</section>
+
+<button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+  🌞
+</button>
+
+
+<section id="chatbot" class="chatbot-section section">
+    <div class="container chatbot-container">
+        <div class="chatbot-intro">
+            <h2>🤖 AI Assistant</h2>
+            <p>Ask me anything about my background, skills, projects</p>
+        </div>
+
+        <div class="instructions">
+            <p><strong>Instructions:</strong> Ask me about my background</p>
+        </div>
+
+        <div class="chat-interface">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-avatar bot-avatar">AI</div>
+                    <div class="message-bubble">
+                        Hi! I'm Ermonem's AI assistant. I can tell you about Ermonem's background, skills, projects,and how to get in touch. What would you like to know?
+                    </div>
+                </div>
+            </div>
+            
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="message-avatar bot-avatar">AI</div>
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+                <span>Thinking...</span>
+            </div>
+
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Ask me about Ermonem's background, skills, or projects...">
+                <button class="send-button" id="sendButton">➤</button>
+            </div>
+        </div>
+
+        <div class="sample-questions">
+            <h3>Sample Questions (Click to try):</h3>
+            <ul>
+                <li onclick="askQuestion('Who are you?')">❓ Who are you?</li>
+                <li onclick="askQuestion('What projects have you worked on?')">🚀 What projects have you worked on?</li>
+                <li onclick="askQuestion('What are your main skills?')">💻 What are your main skills?</li>
+                <li onclick="askQuestion('Why did you join DirectEd?')">🎓 Why did you join DirectEd?</li>
+                <li onclick="askQuestion('How can someone contact you?')">📧 How can someone contact you?</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script>
+    const personalContext = `
+    You are an AI assistant representing Ermonem Mersha, a generative AI developer. Here's the comprehensive information about Ermonem:
+PERSONAL BACKGROUND:
+- Name: Ermonem Mersha
+- Location: Addis Ababa, Ethiopia
+- Role: UI/UX Designer
+- Passion: Designing intuitive, user-centered digital experiences that bridge creativity and functionality
+
+TECHNICAL SKILLS:
+- UI/UX Design: User Research, Wireframing, Prototyping, Interaction Design, Usability Testing
+- Design Tools: Figma, Adobe XD, Sketch, InVision, Balsamiq
+- Frontend: HTML5, CSS3, JavaScript  Responsive Design
+- Design Systems: Material Design
+
+
+FEATURED PROJECTS:
+1. Mobile Banking App Redesign:
+   - Revamped UI/UX for a local bank’s mobile application
+   - Focused on streamlining user flows, enhancing accessibility, and modernizing the visual design
+   - Tools: Figma, Adobe XD, UsabilityHub
+
+
+
+2. Portfolio Website:
+   - Designed and built a personal portfolio to showcase projects and UI/UX capabilities
+   - Focused on clean layouts, interaction design, and responsive components
+   - Technologies: HTML, CSS, JavaScript, Figma
+
+CONTACT INFORMATION:
+- Email: ermonem.mersha@email.com
+- Phone: +251 900 395 668
+- LinkedIn: https://linkedin.com/in/ermonemmersha
+- GitHub: https://github.com/RAYMONOO7
+- Location: Addis Ababa, Ethiopia
+
+PROFESSIONAL PHILOSOPHY:
+- Committed to designing experiences that solve real user problems
+- Passionate about human-centered design and intuitive interfaces
+- Dedicated to continuous improvement and staying updated with design trends and tools
+- Believes great design is both functional and beautiful
+- Values accessibility, inclusivity, and collaboration in every project
+
+
+
+
+    When answering questions, be conversational, enthusiastic, and informative. Always respond as if you are representing Ermonem directly. Provide specific details when asked about projects, skills, or experiences. Be proud of your work in generative AI and its impact on technology.
+    `;
+
+    const chatInput = document.getElementById("chatInput");
+    const sendButton = document.getElementById("sendButton");
+    const chatMessages = document.getElementById("chatMessages");
+    const typingIndicator = document.getElementById("typingIndicator");
+
+    sendButton.addEventListener("click", sendMessage);
+    chatInput.addEventListener("keypress", function (e) {
+        if (e.key === "Enter") sendMessage();
+    });
+
+    function addMessage(content, isBot = false) {
+        const messageDiv = document.createElement("div");
+        messageDiv.className = `message ${isBot ? "bot" : "user"}`;
+        messageDiv.innerHTML = `
+            <div class="message-avatar ${isBot ? "bot-avatar" : "user-avatar"}">${isBot ? "AI" : "You"}</div>
+            <div class="message-bubble">${content}</div>
+        `;
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    async function sendMessage() {
+        const message = chatInput.value.trim();
+        if (!message) return;
+
+        addMessage(message, false);
+        chatInput.value = "";
+        typingIndicator.style.display = "flex";
+
+        const fullPrompt = `${personalContext}\n\nUser: ${message}\nAI:`;
+
+        try {
+            const response = await puter.ai.chat(fullPrompt, {
+                model: 'gpt-4',
+                temperature: 0.7,
+                max_tokens: 500
+            });
+
+            const reply = response.choices?.[0]?.message?.content || getFallbackResponse(message.toLowerCase());
+            addMessage(reply, true);
+        } catch (error) {
+            console.error("AI error:", error);
+            addMessage(getFallbackResponse(message.toLowerCase()), true);
+        }
+
+        typingIndicator.style.display = "none";
+    }
+
+    function askQuestion(question) {
+        chatInput.value = question;
+        sendMessage();
+    }
+
+    function getFallbackResponse(message) {
+        if (message.includes('who are you') || message.includes('about')) {
+            return "I'm Ermonem Mersha, a UI/UX Designer from Addis Ababa, Ethiopia. I'm passionate about designing intuitive, user-centered digital experiences.";
+        } else if (message.includes('project')) {
+            return "Ermonem has worked on a Mobile Banking App Redesign, an E-commerce Experience Optimization, and his own Portfolio Website. Let me know if you'd like details.";
+        } else if (message.includes('skill')) {
+            return "Ermonem's skills include Figma, Adobe XD, user research, wireframing, prototyping, responsive design, accessibility, and more.";
+        } else if (message.includes('directed') || message.includes('direct')) {
+            return "Ermonem is driven by a mission to design human-centered experiences and contribute to meaningful technological solutions.";
+        } else if (message.includes('contact')) {
+            return "You can contact Ermonem via email at ermonem.mersha@email.com or connect on LinkedIn (linkedin.com/in/ermonemmersha).";
+        } else {
+            return "I'm here to help you learn more about Ermonem Mersha’s background, skills, and design journey. Ask me anything!";
+        }
+    }
+</script>
+
+
+
+
+
+<footer>
+  <div class="social-links">
+    <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt=""></a>
+    <a href="https://linkedin.com" target="_blank"><img src="linked in.png" alt=""></a>
+    <a href="https://github.com" target="_blank"><img src="github.png" alt=""></a>
+  </div>
+
+
+  <div class="footer-text">
+    <p>© 2025 My Name. All rights reserved.</p>
+    <p>Designed & Developed with ❤️</p>
+  </div>
+
+   <div class="footer-text">
+    <p>© 2025 Ermon. All rights reserved.</p>
+    <p>ermonem mersha@ gmail.com</p>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
